@@ -143,7 +143,7 @@ Network folder ->terminal
 
 ## Documentation
 
-[Documentation](https://gitlab.com/saurabhkumarr99/saurabhkumarrai_electronicvotingsystem/-/blob/main/ElectronicVotingSystemDoc.pdf)
+[Documentation](https://github.com/saurabhkumarr99/ElectronicVotingSystem-Hyperledger/blob/master/ElectronicVotingSystemDoc.pdf)
 
 
 ## Authors
