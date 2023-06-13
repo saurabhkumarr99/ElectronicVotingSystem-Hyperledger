@@ -1,0 +1,33 @@
+<h2>
+    Voter History
+</h2>
+
+<script>buttonDisStatus();</script>
+
+<form id="readform">
+    <table>
+        <tr>
+            <td>VoterId</td>
+            <td><input type="text" id="VoterHistoryId" /></td>
+        </tr>
+        <tr>
+            <td>Voter Name</td>
+            <td><input type="text" id="VoterHistoryName" /></td>
+        </tr>
+        <tr>
+            <td>DOB</td>
+            <td><input type="date"  max="2005-06-15" id="VoterHistorydob"></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td> <button onclick="VoterHistory(event)">Voter Transctions (UIDAI OTP Ver)</button>
+                <button type="reset">Clear</button>
+            </td>
+        </tr>
+    </table>
+</form>
+
+
+<div id="VoterHistoryBox" style="display: none;"></div>
+

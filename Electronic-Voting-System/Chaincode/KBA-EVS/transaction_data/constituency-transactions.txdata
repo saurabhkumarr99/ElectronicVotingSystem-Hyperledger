@@ -1,0 +1,44 @@
+[
+    {
+        "transactionName": "constituencyExists",
+        "transactionLabel": "A test constituencyExists transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "createConstituency",
+        "transactionLabel": "A test createConstituency transaction",
+        "arguments": [
+            "001",
+            "some value"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "readConstituency",
+        "transactionLabel": "A test readConstituency transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "updateConstituency",
+        "transactionLabel": "A test updateConstituency transaction",
+        "arguments": [
+            "001",
+            "some other value"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "deleteConstituency",
+        "transactionLabel": "A test deleteConstituency transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    }
+]

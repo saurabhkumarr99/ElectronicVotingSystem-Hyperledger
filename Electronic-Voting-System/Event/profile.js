@@ -1,0 +1,23 @@
+let profile={
+    eci:{
+        "Wallet":"../Network/vars/profiles/vscode/wallets/eci.evs.com",
+        "CP":"../Network/vars/profiles/evschannel_connection_for_nodesdk.json"
+    },
+    candidate:{
+        "Wallet":"../Network/vars/profiles/vscode/wallets/candidate.evs.com",
+        "CP":"../Network/vars/profiles/evschannel_connection_for_nodesdk.json"        
+    },
+    constituency:{
+        "Wallet":"../Network/vars/profiles/vscode/wallets/constituency.evs.com",
+        "CP":"../Network/vars/profiles/evschannel_connection_for_nodesdk.json"
+    },
+    party:{
+        "Wallet":"../Network/vars/profiles/vscode/wallets/party.evs.com",
+        "CP":"../Network/vars/profiles/evschannel_connection_for_nodesdk.json"        
+    },
+    voter:{
+        "Wallet":"../Network/vars/profiles/vscode/wallets/voter.evs.com",
+        "CP":"../Network/vars/profiles/evschannel_connection_for_nodesdk.json"        
+    },
+}
+module.exports={profile}

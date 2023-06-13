@@ -1,0 +1,44 @@
+[
+    {
+        "transactionName": "partyExists",
+        "transactionLabel": "A test partyExists transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "createParty",
+        "transactionLabel": "A test createParty transaction",
+        "arguments": [
+            "001",
+            "some value"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "readParty",
+        "transactionLabel": "A test readParty transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "updateParty",
+        "transactionLabel": "A test updateParty transaction",
+        "arguments": [
+            "001",
+            "some other value"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "deleteParty",
+        "transactionLabel": "A test deleteParty transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    }
+]

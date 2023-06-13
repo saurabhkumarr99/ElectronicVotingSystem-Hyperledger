@@ -1,0 +1,44 @@
+[
+    {
+        "transactionName": "candidateExists",
+        "transactionLabel": "A test candidateExists transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "createCandidate",
+        "transactionLabel": "A test createCandidate transaction",
+        "arguments": [
+            "001",
+            "some value"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "readCandidate",
+        "transactionLabel": "A test readCandidate transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "updateCandidate",
+        "transactionLabel": "A test updateCandidate transaction",
+        "arguments": [
+            "001",
+            "some other value"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "deleteCandidate",
+        "transactionLabel": "A test deleteCandidate transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    }
+]

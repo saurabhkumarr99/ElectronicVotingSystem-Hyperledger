@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>{{title}}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" crossorigin="anonymous">
+    <script src='/javascripts/main.js'></script>
+    <script src='/javascripts/constituency.js'></script>
+    <script src='/javascripts/candidate.js'></script>
+    <script src='/javascripts/party.js'></script>
+    <script src='/javascripts/voter.js'></script>
+    <script src='/javascripts/castVote.js'></script>
+    <script src='/javascripts/election.js'></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+       <a class="navbar-brand" href="#">Electronic Voting System</a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse big" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+      </li>
+    
+    <li class="nav-item dropdown" id="ElecMang" style="display: none;">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Election Management
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="/constituencyForm">Create Constituency</a>
+          <a class="dropdown-item" href="/partyForm">Create Party</a>
+          <a class="dropdown-item" href="/candidateForm">Create Candidate</a>
+          <a class="dropdown-item" href="/voterForm">Create Voter</a>
+        </div>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Voter Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="/enrollVoter">Enroll Yourself</a>
+          <a class="dropdown-item" href="/voterHistory">Voter Transactions</a>
+        </div>
+      </li>
+       
+      <li class="nav-item">
+        <a class="nav-link" href="/election">Election 2023</a>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+     <button class="btn btn-success navbar-btn" type="button" id="startVoting" style="display: none ;margin-left:5px;" onclick="startVoting()">Start Voting</button>
+     <button class="btn btn-danger navbar-btn" type="button" id="StopVoting" style="display: none;margin-left:5px;" disabled onclick="stopVoting()">Stop Voting</button>
+     <button class="btn btn-primary navbar-btn" type="button" id="login"  data-toggle="modal" data-target="#ModalCenter"> Official Login</button>
+     <button class="btn btn-warning navbar-btn" type="button" id="logout" style="display: none;margin-left:3px;" onclick="logout()">Logout</button>
+    </ul>
+  </div>
+</nav>
+    {{{body}}}
+
+    <script>buttonDisStatus();</script>
+
+  </body>
+</html>

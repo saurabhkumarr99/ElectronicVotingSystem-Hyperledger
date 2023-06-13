@@ -1,0 +1,27 @@
+fabric:
+  cas:
+  - "ca1.eci.evs.com"
+  - "ca1.voter.evs.com"
+  - "ca1.candidate.evs.com"
+  - "ca1.constituency.evs.com"
+  - "ca1.party.evs.com"
+
+  peers: 
+  - "peer1.eci.evs.com"
+  # - "peer2.org0.example.com"
+  - "peer1.voter.evs.com"
+  - "peer1.candidate.evs.com"
+  - "peer1.constituency.evs.com"
+  - "peer1.party.evs.com"
+
+  orderers:
+  - "orderer1.evs.com"
+  - "orderer2.evs.com"
+  - "orderer3.evs.com"
+  settings:
+    ca:
+      FABRIC_LOGGING_SPEC: DEBUG
+    peer:
+      FABRIC_LOGGING_SPEC: DEBUG
+    orderer:
+      FABRIC_LOGGING_SPEC: DEBUG

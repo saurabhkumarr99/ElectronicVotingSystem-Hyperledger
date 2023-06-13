@@ -1,0 +1,51 @@
+<h1>{{title}}</h1>
+<p>Welcome to {{title}}</p>
+
+<h2>
+    Add New Party
+</h2>
+
+<script>buttonDisStatus();</script>
+
+<form id="addform">
+    <table>
+        <tr>
+            <td>PartyId</td>
+            <td><input type="text" id="partyId" /></td>
+        </tr>
+        <tr>
+            <td>PartyName</td>
+            <td><input type="text" id="partyName" /></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td> <button onclick="addParty(event)">Add New Party</button>
+                <button type="reset">Clear</button>
+            </td>
+        </tr>
+
+    </table>
+</form>
+
+<br>
+
+
+<h2>
+    Query Party
+</h2>
+
+<form id="readform">
+    <table>
+        <tr>
+            <td>PartyId</td>
+            <td><input type="text" id="readPartyId" /></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td> <button onclick="readParty(event)">Query Party</button>
+                <button type="reset">Clear</button>
+            </td>
+        </tr>
+    </table>
+</form>
+

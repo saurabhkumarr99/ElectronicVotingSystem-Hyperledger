@@ -1,0 +1,32 @@
+<h1>{{title}}</h1>
+<p>Welcome to {{title}}</p>
+
+<h2 style="text-align: center;">
+    Add New Candidate
+</h2>
+
+<script>
+    buttonDisStatus();
+    createCandidateForm()
+</script>
+
+<br>
+
+<h2 style="text-align: center;">
+    Query Candidate
+</h2>
+
+<form id="readform">
+    <table>
+        <tr>
+            <td>CandidateId</td>
+            <td><input type="text" id="readCandidateId" /></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td> <button onclick="readCandidate(event)">Query Candidate</button>
+                <button type="reset">Clear</button>
+            </td>
+        </tr>
+    </table>
+</form>

@@ -1,0 +1,38 @@
+<h1>{{title}}</h1>
+<p>Welcome to {{title}}</p>
+
+<h2>
+    Enroll Yourself
+</h2>
+
+<script>buttonDisStatus();</script>
+
+<form >
+    <table>
+        <tr>
+            <td>Voter Id</td>
+            <td><input type="text" id="voterId2" /></td>
+        </tr>
+        <tr>
+            <td>Voter Name</td>
+            <td><input type="text" id="voterName2" /></td>
+        </tr>
+        <tr>
+            <td>DOB</td>
+            <td><input type="date"  max="2005-06-15" id="dob2"></td>
+        </tr>
+        <br>
+        <tr>  
+            <td></td>
+            <td> <button onclick="enrollVoter(event)">Enroll(UIDAI OTP Ver)</button>
+                <button type="reset">Clear</button>
+            </td>
+        </tr>
+
+    </table>
+</form>
+
+<br>
+<button id="castVote" style="display:none;text-align: center" onclick="castVote()">Cast Your Vote</button>
+
+<h3 style="display:none ;color :blue ; text-align: center" id="msg1">Your have already voted.</h3>

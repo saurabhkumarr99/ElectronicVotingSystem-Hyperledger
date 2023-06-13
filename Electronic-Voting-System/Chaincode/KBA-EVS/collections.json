@@ -1,0 +1,10 @@
+[
+    {
+        "name": "CollectionOrder",
+        "policy": "OR('eci-evs-com.member', 'voter-evs-com.member')",
+        "requiredPeerCount": 1,
+        "maxPeerCount": 1,
+        "blockToLive": 1000000,
+        "memberOnlyRead": true
+    }
+]

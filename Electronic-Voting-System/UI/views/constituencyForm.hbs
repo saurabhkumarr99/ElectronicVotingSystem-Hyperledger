@@ -1,0 +1,51 @@
+<h1>{{title}}</h1>
+<p>Welcome to {{title}}</p>
+
+<h2>
+    Add New Constituency
+</h2>
+
+<script>buttonDisStatus();</script>
+
+<form id="addform">
+    <table>
+        <tr>
+            <td>ConstituencyId</td>
+            <td><input type="text" id="constituencyId" /></td>
+        </tr>
+        <tr>
+            <td>ConstituencyName</td>
+            <td><input type="text" id="constituencyName" /></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td> <button onclick="addConstituency(event)">Add New Constituency</button>
+                <button type="reset">Clear</button>
+            </td>
+        </tr>
+
+    </table>
+</form>
+
+<br>
+
+
+<h2>
+    Query Constituency
+</h2>
+
+<form id="readform">
+    <table>
+        <tr>
+            <td>ConstituencyId</td>
+            <td><input type="text" id="readConstituencyId" /></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td> <button onclick="readConstituency(event)">Query Constituency</button>
+                <button type="reset">Clear</button>
+            </td>
+        </tr>
+    </table>
+</form>
+
