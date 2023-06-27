@@ -68,7 +68,7 @@ sudo apt install git
 3- Clone this repository.
 
 
-[https://gitlab.com/saurabhkumarr99/saurabhkumarrai_electronicvotingsystem](https://gitlab.com/saurabhkumarr99/saurabhkumarrai_electronicvotingsystem)
+[https://github.com/saurabhkumarr99/saurabhkumarrai_electronicvotingsystem](https://github.com/saurabhkumarr99/saurabhkumarrai_electronicvotingsystem)
 
 
 
